@@ -22,7 +22,6 @@ function App() {
         height: "100vh",
         width: "100vw",
         overflow: "hidden",
-        padding: "20px", // Add padding
       }}
     >
       <h1>TaskAhead App</h1>

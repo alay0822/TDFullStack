@@ -3,7 +3,7 @@ import axios from "axios";
 import "../index.css";
 
 // 👇 Base URL for your FastAPI backend
-const BASE_URL = "http://127.0.0.1:8000/api/tasks/";
+const BASE_URL = "https://your-fastapi-backend.onrender.com/api/tasks/";
 
 export default function TodoList({ darkMode, setDarkMode }) {
   const [tasks, setTasks] = useState([]);

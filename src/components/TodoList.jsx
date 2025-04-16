@@ -16,6 +16,7 @@ export default function TodoList({ darkMode, setDarkMode }) {
   useEffect(() => {
     axios.get(BASE_URL)
       .then(response => {
+        console.log(response.data); // Debugging
         setTasks(response.data);
       })
       .catch(error => console.error("There was an error fetching tasks:", error));
@@ -151,6 +152,7 @@ export default function TodoList({ darkMode, setDarkMode }) {
           </li>
         ))}
       </ul>
+      {filteredTasks.length === 0 && <p style={{ textAlign: "center" }}>No tasks available. Add a new task!</p>}
     </div>
   );
 }

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alay0822/TDFullStack.git/static/css/main.b29699a3.css",
+    "main.js": "/alay0822/TDFullStack.git/static/js/main.d7010f20.js",
+    "static/media/background_image.jpg": "/alay0822/TDFullStack.git/static/media/background_image.4738d414b63e46b991e5.jpg",
+    "static/media/image.jpg": "/alay0822/TDFullStack.git/static/media/image.9510f124e6ff0fec84d7.jpg",
+    "index.html": "/alay0822/TDFullStack.git/index.html",
+    "main.b29699a3.css.map": "/alay0822/TDFullStack.git/static/css/main.b29699a3.css.map",
+    "main.d7010f20.js.map": "/alay0822/TDFullStack.git/static/js/main.d7010f20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b29699a3.css",
+    "static/js/main.d7010f20.js"
+  ]
+}
